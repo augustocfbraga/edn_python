@@ -22,5 +22,5 @@ try:
     
     detalhar_servico(conta, porcentagem)
 except ValueError:
-    print("Erro: Por favor, insira valores numéricos válidos.")
+    print("Erro: Por favor, insira valores numéricos válidos.") #apresentacao
 

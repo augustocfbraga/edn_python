@@ -23,4 +23,4 @@ def calcular_preco_final():
         print("Erro: Por favor, insira apenas valores numéricos.")
 
 if __name__ == "__main__":
-    calcular_preco_final()
+    calcular_preco_final() #apresentacao

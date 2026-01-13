@@ -17,4 +17,4 @@ def verificar_palindromo():
         print("Não")
 
 if __name__ == "__main__":
-    verificar_palindromo()
+    verificar_palindromo() #apresentacao

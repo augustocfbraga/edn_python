@@ -27,4 +27,4 @@ def calcular_dias_vividos():
         print("Erro: Data inválida. Certifique-se de digitar números reais para dia, mês e ano.")
 
 if __name__ == "__main__":
-    calcular_dias_vividos()
+    calcular_dias_vividos() #apreesentacao
