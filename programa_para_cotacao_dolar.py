@@ -11,7 +11,8 @@ def obter_cotacao_dolar():
         dados = resposta.json()
 
         if "USDBRL" in dados: 
-            return float(dados["USDBRL"]["bid"]) #valor atual/de agora
+            return float(dados["USDBRL"]["bid"]) #valor atual/de agora3
+            
         else:
             return None        
     except requests.exceptions.RequestException:
@@ -26,9 +27,9 @@ def main():
 
         if cotacao:
             valor_real = converter_para_real(valor_dolar, cotacao)
-            print(f"\n USD {valor_dolar: .2f}")
-            print(f"Cotação: R$ {cotacao:2f}")
-            print(f"Valor em reais: R$ {valor_real}")
+            print(f"USD: {valor_dolar: .2f}")
+            print(f"Cotação: R$ {cotacao: .2f}")
+            print(f"Valor em reais: R$ {valor_real: .2f}")
         else:
             print("Não foi possível obter a cotação")
 
